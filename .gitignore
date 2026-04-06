@@ -1,0 +1,30 @@
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# build / next
+.next
+out
+build
+dist
+
+# env
+.env
+.env*.local
+
+# debug / os
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# typescript
+*.tsbuildinfo
+
+# ide
+.idea
+.vscode/*
+!.vscode/extensions.json
+
+# vercel
+.vercel
